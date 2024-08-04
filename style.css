@@ -1,3 +1,8 @@
+@font-face {
+    font-family: Odin-font;
+    src: url(Assets/Fonts/Norse-Bold.woff);
+}
+
 html {
     height:100%;
     width:100%;
@@ -27,6 +32,7 @@ body {
     height: 180px;
     width: 100%;
     margin-top: -300px;
+    font-family: Odin-font;
 }
 
 .WhiteSpace
