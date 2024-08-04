@@ -52,14 +52,14 @@ body {
     display: flex;
     background-color: whitesmoke;
     height:100%;
-    align-items: center;
+    flex-direction: column;
 }
 
 .LoginArea {
     background-color: white;
-    height: 400px;
+    height: 300px;
     width: 100%;
-    margin-top: 180px;
+    margin-top: 70px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
     font-family: Mont;
 }
@@ -68,7 +68,7 @@ body {
     display:grid;
     grid-template-columns: repeat(2,256px);
     height: 100%;
-    gap: 60px;
+    gap: 20px;
     justify-items: center;
     padding-top: 20px;
 }
@@ -78,7 +78,6 @@ body {
     flex-direction: column;
     margin-left:50px;
     align-content: center;
-    
 }
 
 button,
@@ -99,5 +98,21 @@ input {
 }
 
 #EnterButton {
+    width: 250px;
+    height: 50px;
+    font-family: mont;
+    color: white;
+    background-color:rgb(255, 183, 96);
+    border: none;
+    border-radius: 5px;
+    margin-left: 50px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    font-weight: 800;
+}
 
+.WelcomeMSG {
+    font-family: mont;
+    font-size: 30px;
+    margin-top: 250px;
+    margin-left: 20px;
 }
