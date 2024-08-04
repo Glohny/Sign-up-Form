@@ -56,7 +56,6 @@ body {
 }
 
 .LoginArea {
-    
     background-color: white;
     height: 400px;
     width: 100%;
@@ -65,9 +64,21 @@ body {
     font-family: Mont;
 }
 
-.LoginForm {
+#LoginForm {
     display:grid;
-    grid-template-columns: repeat(2,1fr);
+    grid-template-columns: repeat(2,256px);
+    height: 100%;
+    gap: 60px;
+    justify-items: center;
+    padding-top: 20px;
+}
+
+.InputColumns {
+    display: flex;
+    flex-direction: column;
+    margin-left:50px;
+    align-content: center;
+    
 }
 
 button,
@@ -76,4 +87,17 @@ select,
 textarea {
   font-family: inherit;
   font-size: 100%;
+}
+
+input {
+    border-radius: 3px;
+    border-style: solid;
+    border-width: 1px;
+    border-color:rgba(124, 124, 124, .3);
+    width: 250px;
+    padding-bottom: 10px;
+}
+
+#EnterButton {
+
 }
