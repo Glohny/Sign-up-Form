@@ -3,6 +3,11 @@
     src: url(Assets/Fonts/Norse-Bold.woff);
 }
 
+@font-face {
+    font-family: Mont;
+    src: url(Assets/Fonts/Montserrat-Regular.woff);
+}
+
 html {
     height:100%;
     width:100%;
@@ -51,9 +56,24 @@ body {
 }
 
 .LoginArea {
+    
     background-color: white;
     height: 400px;
     width: 100%;
     margin-top: 180px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    font-family: Mont;
 }
 
+.LoginForm {
+    display:grid;
+    grid-template-columns: repeat(2,1fr);
+}
+
+button,
+input,
+select,
+textarea {
+  font-family: inherit;
+  font-size: 100%;
+}
