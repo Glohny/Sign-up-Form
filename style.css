@@ -13,7 +13,7 @@ body {
     grid-template-columns: 1fr 3fr;
     margin: 0px;
     padding: 0px;
-    background-image: url(Photos/Puppybackground.webp);
+    background-image: url(Assets/Photos/Puppybackground.webp);
     background-size: 1500px;
     background-origin: border-box;
     background-position: -340px 0;
@@ -27,16 +27,33 @@ body {
 }
 
 .BlackBarCaption {
-    opacity: 50%;
-    background-color: black;
+    display: flex;
+    background-color: rgba(0,0,0,.7);
     height: 180px;
     width: 100%;
-    margin-top: -300px;
+    margin-top: -380px;
+    justify-content: center;
+    align-items: center;
+}
+
+#CaptionText {
+    color:white;
     font-family: Odin-font;
+    font-size: 80px;
 }
 
 .WhiteSpace
 {
-    background-color: white;
+    display: flex;
+    background-color: whitesmoke;
     height:100%;
+    align-items: center;
 }
+
+.LoginArea {
+    background-color: white;
+    height: 400px;
+    width: 100%;
+    margin-top: -100px;
+}
+
