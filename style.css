@@ -29,7 +29,7 @@ body {
 .BlackBarCaption {
     display: flex;
     background-color: rgba(0,0,0,.7);
-    height: 180px;
+    height: 160px;
     width: 100%;
     margin-top: -380px;
     justify-content: center;
@@ -54,6 +54,6 @@ body {
     background-color: white;
     height: 400px;
     width: 100%;
-    margin-top: -100px;
+    margin-top: 180px;
 }
 
